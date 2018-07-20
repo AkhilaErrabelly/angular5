@@ -1,0 +1,17 @@
+<!--<div>
+  <label *ngIf="!isEditMode">{{camera.name}}</label>
+  <div *ngIf="isEditMode">
+    <input #cameraInput type="text" [value]="camera.name" (keyup) ="onKeyUp($event.target.value)"/>
+    <button type="button" (click)="switchToReadonlyMode()">Done</button>
+  </div>
+</div>
+  
+<div>
+  <a (click)="onRename()">Rename</a>
+  <a (click)="delete()">Another Option</a>
+</div> -->
+
+<input appNumberminmax type="number"/>
+
+<input type="number" name="quantity"
+   min="0" max="100" step="10" value="30">
